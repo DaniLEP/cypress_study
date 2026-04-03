@@ -1,0 +1,23 @@
+{
+  "name": "cypress_study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:edge": "cypress open --browser edge",
+    "cy:run:edge": "cypress run --browser edge",
+    "cypress:open:dev": "cypress open --config-file config-dev.js --browser edge",
+    "cypress:open:qa": "cypress open --config-file config-qa.js --browser edge",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.13.0",
+    "cypress-mochawesome-reporter": "^3.8.4",
+    "cypress-multi-reporters": "^2.0.5",
+    "dotenv": "^17.4.0",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
